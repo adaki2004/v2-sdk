@@ -10,6 +10,8 @@ export enum ChainId {
   GÖRLI = 5,
   KOVAN = 42,
   GWYNETH = 160010,
+  GWYNETH_L2A = 167010,
+  GWYNETH_L2B = 167011,
   SEPOLIA = 11155111
 }
 
@@ -26,7 +28,7 @@ export enum Rounding {
 
 export const FACTORY_ADDRESS = '0xdF11D829eeC4C192774F3Ec171D822f6Cb4C14d9'
 
-export const INIT_CODE_HASH = '0x96e8ac4277198ff8b6f785478aa9a39f403cb768dd02cbee326c3e7da348845f'
+export const INIT_CODE_HASH = '0x77820097bae7b0b30c784fe9efdd81e53e0438eaedc27794a7682e3886a792d6'
 
 export const MINIMUM_LIQUIDITY = JSBI.BigInt(1000)
 
