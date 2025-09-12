@@ -82,6 +82,6 @@ export const WETH = {
   [ChainId.KOVAN]: new Token(ChainId.KOVAN, '0xd0A1E359811322d97991E03f863a0C30C2cF029C', 18, 'WETH', 'Wrapped Ether'),
   [ChainId.GWYNETH]: new Token(ChainId.GWYNETH, '0x12BEFBCED4fCC6c2b854d34c7e0906F50143EDff', 18, 'WETH', 'Wrapped Ether'),
   [ChainId.GWYNETH_L2A]: new Token(ChainId.GWYNETH_L2A, '0x12BEFBCED4fCC6c2b854d34c7e0906F50143EDff', 18, 'WETH', 'Wrapped Ether'),
-  [ChainId.GWYNETH_L2B]: new Token(ChainId.GWYNETH_L2A, '0x12BEFBCED4fCC6c2b854d34c7e0906F50143EDff', 18, 'WETH', 'Wrapped Ether'),
+  [ChainId.GWYNETH_L2B]: new Token(ChainId.GWYNETH_L2B, '0x12BEFBCED4fCC6c2b854d34c7e0906F50143EDff', 18, 'WETH', 'Wrapped Ether'),
   [ChainId.SEPOLIA]: new Token(ChainId.SEPOLIA, '0x7b79995e5f793A07Bc00c21412e50Ecae098E7f9', 18, 'WETH', 'Wrapped Ether'),
 }

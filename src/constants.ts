@@ -12,7 +12,8 @@ export enum ChainId {
   GWYNETH = 160010,
   GWYNETH_L2A = 167010,
   GWYNETH_L2B = 167011,
-  SEPOLIA = 11155111
+  SEPOLIA = 11155111,
+  HOODI = 560048
 }
 
 export enum TradeType {
