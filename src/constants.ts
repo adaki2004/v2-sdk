@@ -29,7 +29,9 @@ export enum Rounding {
 
 export const FACTORY_ADDRESS = '0x4d2caEe76BAb8dDE0717Cba05304aB99A76f7dcF'
 
-export const INIT_CODE_HASH = '0x4c56f20bb951b0ce8ea79f97d4efbfddbca063e60e164fa123f81a8da08fd8da'
+// Pair init code hash for gwyneth/Porto deployment (extension-oracle forwarder).
+// Source: uniswap_notes.md / road-to-biometric-uniswap.md.
+export const INIT_CODE_HASH = '0xbff2caa297db474154256863be386d48750bee9dcf9611476fe4bfb29e8617bc'
 
 export const MINIMUM_LIQUIDITY = JSBI.BigInt(1000)
 
